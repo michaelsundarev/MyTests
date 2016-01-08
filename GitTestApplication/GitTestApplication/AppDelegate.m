@@ -17,6 +17,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
   // Override point for customization after application launch.
+  
+  
+  [UINavigationBar setAnimationDelay:0.5];
+  
+  
   return YES;
 }
 
